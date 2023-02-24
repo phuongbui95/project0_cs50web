@@ -5,19 +5,48 @@
     </head>
     <body>
         <div class="upper corner">
-            <a href="index.html" alt="empty">Basic Search</a>
-            <a href="image.html" alt="empty">Image</a>
+            <a href="index.html" target="_blank">Basic Search</a>
+            <a href="image.html" target="_blank">Image</a>
         </div>
 
+        <h1>Google with PB</h1>
+        <div>Advanced Search</div>
+        <div class="seperator">-------</div>
+        
         <form action="https://www.google.com/advanced_search">
-            
             <div>
-                <input type="text" name="q">
+                <span>Find pages with...</span>
             </div>
-            
+
             <div>
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+                <div>all these words:</div>
+                <div>
+                    <input type="text" name="as_q">
+                </div>
+            </div>
+            <div>
+                <div>this exact word or phrase:</div>
+                <div>
+                    <input type="text" name="as_epq">
+                </div>
+            </div>
+            <div>
+                <div>any of these words:</div>
+                <div>
+                    <input type="text" name="as_oq">
+                </div>
+            </div>
+            <div>
+                <div>none of these words:</div>
+                <div>
+                    <input type="text" name="as_eq">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <input type="submit" value="Advanced Search" >
+                </div>
             </div>
         </form>
     </body>
