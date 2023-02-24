@@ -1,0 +1,17 @@
+body{
+    background-color: #221f1f;
+}
+
+.container1{
+}
+
+.container2{
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: white;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+}
