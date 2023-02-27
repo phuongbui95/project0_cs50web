@@ -7,58 +7,80 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">           
     </head>
     <body>
-        <div class="container1">
-            <a href="index.html" target="_blank">Basic</a>
-            <a href="image.html" target="_blank">Image</a>
-            <span>|||||</span>
-            <a href="https://www.youtube.com/@pbwebcoding?sub_confirmation=1">
-                <button class="btn"><i class="fa fa-home"></i> PB Youtube</button>
-            </a>
-        </div>
-
-        <div class="container2">
-            <h1>Google with PB</h1>
-        </div>
-
-        <div>Advanced Search</div>
-        <div class="seperator">-------</div>
+        <dive class=""advance1">
+            <!-- upper left -->
+            <div>
+                Google with PB
+            </div>
+            <!-- upper right -->
+            <div class="container1">
+                <a href="index.html" target="_blank">Basic</a>
+                <a href="image.html" target="_blank">Image</a>
+                <span>|||||</span>
+                <a href="https://www.youtube.com/@pbwebcoding?sub_confirmation=1">
+                    <button class="btn"><i class="fa fa-home"></i> PB Youtube</button>
+                </a>
+            </div>
+        </dive>
         
-        <div class="input_block">
+
+        <div class="advance2">
+            <h1>Advanced Search</h1>
+            <div class="seperator">-------</div>
+        </div>
+        
+        <div class="advance3">
             <form action="https://www.google.com/advanced_search">
                 <div>
-                    <span>Find pages with...</span>
+                    <div><span>Find pages with...</span></div>
+                    <div>To do this in the search box.</div>
+
                 </div>
     
                 <div>
-                    <div>all these words:</div>
+                    <div><label>all these words</label> </div>
                     <div>
                         <input type="text" name="as_q">
                     </div>
+                    <div>
+                        Type the important words: <span>tri-colour rat terrier</span> 
+                    </div>
                 </div>
                 <div>
-                    <div>this exact word or phrase:</div>
+                    <div><label> exact word or phrase:</label></div>
                     <div>
                         <input type="text" name="as_epq">
                     </div>
+                    <div>
+                        Put exact words in quotes: <span>&quot;rat terrier&quot;</span>
+                    </div>
                 </div>
+                
                 <div>
-                    <div>any of these words:</div>
+                    <div><label>any of these words:</label></div>
                     <div>
                         <input type="text" name="as_oq">
                     </div>
+                    <div>
+                        Type <span>OR</span> between all the words you want: <span>miniature OR standard</span> 
+                    </div>
                 </div>
+                
                 <div>
-                    <div>none of these words:</div>
+                    <div><label>none of these words:</label></div>
                     <div>
                         <input type="text" name="as_eq">
                     </div>
-                </div>
-    
-                <div>
                     <div>
-                        <input type="submit" value="Advanced Search" >
+                        Put a minus sign just before words that you don't want: <span>-rodent, -&quot;Jack Russell&quot;</span>
                     </div>
                 </div>
+    
+                
+                <div>
+                    <input type="submit" value="Advanced Search" >
+                </div>
+                
             </form>
         </div>
         
