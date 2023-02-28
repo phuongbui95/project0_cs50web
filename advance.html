@@ -33,11 +33,11 @@
         
         <form action="https://www.google.com/advanced_search">
             <div class="flex-container" style="margin-top: 2%;">
-                <div class="advance1" style="font-weight: bold; font-size: 14px;">
+                <div class="advance1" style="font-weight: bold; font-size: 15px;">
                     Find pages with...
                 </div>
                 <div></div>
-                <div class="advance1" style="font-weight: bold; font-size: 14px;">
+                <div class="advance1" style="font-weight: bold; font-size: 15px;">
                     To do this in the search box.
                 </div>
 
@@ -49,7 +49,7 @@
                     <input id="adbtn" type="text" name="as_q" size="80" autocomplete="off">
                 </div>
                 <div class="advance3">
-                    Type the important words: tri-colour rat terrier
+                    Type the important words: <span>tri-colour rat terrier</span>
                 </div>
             </div>
                 
@@ -59,7 +59,7 @@
                     <input id="adbtn" type="text" name="as_epq" size="80" autocomplete="off">
                 </div>
                 <div class="advance3">
-                    Put exact words in quotes:&quot;rat terrier&quot;
+                    Put exact words in quotes: <span>&quot;rat terrier&quot;</span>
                 </div>
             </div>
             
@@ -69,7 +69,7 @@
                     <input id="adbtn" type="text" name="as_oq" size="80" autocomplete="off">
                 </div>
                 <div class="advance3">
-                    Type OR between all the words you want: miniature OR standard 
+                    Type OR between all the words you want: <span>miniature OR standard</span>
                 </div>
             </div>
             
@@ -79,21 +79,22 @@
                     <input id="adbtn" type="text" name="as_eq" size="80" autocomplete="off">
                 </div>
                 <div class="advance3">
-                    Put a minus sign just before words that you don't want: -rodent, -&quot;Jack Russell&quot;
+                    Put a minus sign just before words that you don't want: <span>-rodent, -&quot;Jack Russell&quot;</span>
                 </div>
             </div>
                 
             <div class="flex-container">
                 <div></div>
-                <div class="advance2" style="text-align: right;">
-                    <input type="submit" value="Advanced Search"  style="color:black;background-color:#46ccfb;">
+                <div class="advance2" id="adsubmit">
+                    <input name="tbs" type="hidden" value="">
+                    <input type="submit" value="Advanced Search">
                 </div>
                 <div></div>
             </div>        
             
         </form>
         
-        <div class="container4" style="margin-top: 5%;">
+        <div class="container4" style="margin-top: 4%;">
             Powered by Google
         </div>
     </body>

@@ -119,6 +119,19 @@ input[type="submit"]:hover {
     /* font-family: arial, sans-serif; */
 }
 
+#adsubmit {
+    text-align: right;       
+}
+
+#adsubmit>input[type="submit"] {
+    color:black;
+    background-color:#46ccfb;
+}
+
+#adsubmit>input[type="submit"]:hover {
+    background: royalblue;
+}
+
 /* advance.html */
 .flex-container {
     display: flex;
@@ -132,17 +145,17 @@ input[type="submit"]:hover {
 
 .flex-container :nth-of-type(1) {
     /* flex-grow: 2; */
-    flex: 0.75;
+    flex: 0.5;
 }
 
 .flex-container :nth-of-type(2) {
     /* flex-grow: 7; */
-    flex: 2;
+    flex: 1.5;
 }
 
 .flex-container :nth-of-type(3) {
     /* flex-grow: 3; */
-    flex: 1.5;
+    flex: 1.25;
 }
   
 .flex-col3, .flex-col1 {
@@ -160,21 +173,32 @@ input[type="submit"]:hover {
     text-decoration: none;
 }
 
-.advance_open, .advance1, .advance2, .advance3 {
+.advance1, .advance2, .advance3 {
     color: white;
-    text-indent: 1cm;
-    padding: 0.5%;
+    text-indent: 0.75cm;
+    padding-bottom: 1%;
 }
 
 .advance_open {
     font-size: 20px; 
+    color: white;
     border-bottom: 1px solid white;
+    text-indent: 1cm;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .advance1, .advance2 {
-    font-size: 13px;
+    font-size: 14px;
     
 }
 
 .advance3 {
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.advance3 span{
+    color: #b0adad;;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre
 }
