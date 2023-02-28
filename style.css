@@ -1,7 +1,9 @@
 body{
     background-color: #202124;
+    font-family: arial, sans-serif;
 }
 
+/* index.html and image.html */
 .container1{
     text-align: end;
     margin-top: 1%;
@@ -12,7 +14,7 @@ body{
 
 .container1>a, span{
     font-size: 14px;
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
     color: white;
     text-decoration: none;
 }
@@ -27,7 +29,7 @@ body{
     color: black;
     padding: 12px 16px;
     font-size: 14px;
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
     cursor: pointer;
     border-radius: 8px;
 }
@@ -39,7 +41,7 @@ background-color: RoyalBlue;
 
 .container2{
     text-align: center;
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
     font-size: 30px;
     color: white;
 }
@@ -56,7 +58,7 @@ background-color: RoyalBlue;
 
 input {
     font-size: 14px;
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
     color: #bdc1c6;
 }
 
@@ -79,6 +81,13 @@ input[type="text"] {
 input[type="text"]:hover {
     background-color: #5f6368;
 }    
+
+#adbtn {
+    border-radius: 1px;
+    height: 17px;
+    font-size: 13px;
+    text-indent: 10px;
+}
 
 input[type="submit"] {
     border: 1px solid #5f6368;
@@ -107,5 +116,65 @@ input[type="submit"]:hover {
 
     color: white;
     font-size: 20px;
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
+}
+
+/* advance.html */
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    color: white;
+    /* outline: 2px solid white; */
+    /* background-color: darkgreen; */
+    /* border: 1px solid white; */
+    margin: 1%;
+}
+
+.flex-container :nth-of-type(1) {
+    /* flex-grow: 2; */
+    flex: 0.75;
+}
+
+.flex-container :nth-of-type(2) {
+    /* flex-grow: 7; */
+    flex: 2;
+}
+
+.flex-container :nth-of-type(3) {
+    /* flex-grow: 3; */
+    flex: 1.5;
+}
+  
+.flex-col3, .flex-col1 {
+    background-color: #202124;
+    color: white;
+    font-size: 14px;
+}
+
+.flex-col3 {
+    word-spacing: 20px;
+    text-align: right;
+}
+.flex-col3>a {
+    color: white;
+    text-decoration: none;
+}
+
+.advance_open, .advance1, .advance2, .advance3 {
+    color: white;
+    text-indent: 1cm;
+    padding: 0.5%;
+}
+
+.advance_open {
+    font-size: 20px; 
+    border-bottom: 1px solid white;
+}
+.advance1, .advance2 {
+    font-size: 13px;
+    
+}
+
+.advance3 {
+    font-size: 10px;
 }
