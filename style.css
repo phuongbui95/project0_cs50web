@@ -168,9 +168,14 @@ input[type="submit"]:hover {
     word-spacing: 20px;
     text-align: right;
 }
+
 .flex-col3>a {
     color: white;
     text-decoration: none;
+}
+
+.flex-col3>a:hover {
+    text-decoration: underline;
 }
 
 .advance1, .advance2, .advance3 {
