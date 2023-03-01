@@ -108,15 +108,10 @@ input[type="submit"]:hover {
     background: black;
 }
 
-.container4 {
-    margin-top: 15%;
-    /* outline: 10px solid #171717; */
-    /* background-color: #171717; */
-    padding: 2%;
-
+.belowform {
     color: white;
-    font-size: 20px;
-    /* font-family: arial, sans-serif; */
+    text-align: center;
+    margin-top: 5%;
 }
 
 #adsubmit {
