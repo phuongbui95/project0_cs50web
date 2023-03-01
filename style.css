@@ -110,8 +110,8 @@ input[type="submit"]:hover {
 
 .container4 {
     margin-top: 15%;
-    outline: 10px solid #171717; /*for seeing the block visually*/
-    background-color: #171717;
+    /* outline: 10px solid #171717; */
+    /* background-color: #171717; */
     padding: 2%;
 
     color: white;
